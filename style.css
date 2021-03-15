@@ -1,0 +1,61 @@
+#topo {
+  color: #ffffff;
+  height: 20%;
+  min-height: 20%;
+  background: #1C2435 url(../images/background-header.png) no-repeat;
+  background-size: cover;
+  background-position: 47% 0;
+  padding: 100px 0;
+}
+
+#topo h1 {
+  color: #ffffff;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  word-wrap: break-word;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  #topo h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #topo h1 {
+    font-size: 2rem;
+    line-height: 60px;
+  }
+}
+
+#topo h2 {
+  font-size: 1rem;
+  font-weight: 100;
+  word-wrap: break-word;
+  margin: 0;
+  padding: 0;
+}
+
+#topo p {
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  #topo p {
+    font-size: 1.2rem;
+  }
+}
+
+#topo .btn {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #topo .btn {
+    width: 300px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
