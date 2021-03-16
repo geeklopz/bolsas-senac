@@ -1,0 +1,34 @@
+html, body {
+  background-color: $grey-light;
+}
+
+main {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  padding: 50px 0;
+}
+
+// buttons
+.btn-full {
+  background-color: $mostard;
+  color: $white;
+  border: 2px solid $mostard;
+  padding: 5px 20px;
+  &:hover {
+    background-color: $mostard;
+    border: 2px solid $mostard;
+  }
+}
+
+.btn-out {
+  background-color: $white;
+  color: $mostard;
+  border: 2px solid $mostard;
+  padding: 5px 20px;
+
+  &:hover {
+    color: $mostard;
+    background-color: transparent;
+    border: 2px solid $mostard;
+  }
+}

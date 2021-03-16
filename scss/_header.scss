@@ -1,0 +1,92 @@
+#topo {
+  color: $white;
+  font-family: 'Montserrat', sans-serif;
+  height: 20%;
+  min-height: 20%;
+  background: $blue url(../images/header-background.png) no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  padding: 50px 0;
+
+  .overlay {
+    background-color: black;
+    opacity: 0.5;
+  }
+
+  // @media (min-width: 768px) {
+    //   background-size: 100% 100%;
+    //   height: 60vh;
+    //   min-height: 60vh;
+    //   padding: 200px 0;
+    // }
+
+    // @media (min-width: 992px) {
+      //   background-size: 100% 100%;
+      //   height: 50vh;
+      //   min-height: 50vh;
+      //   padding: 100px 0 0 0;
+      // }
+
+      // @media (min-width: 1200px) {
+        //   background-size: 100% 100%;
+        //   height: 15vh;
+        //   min-height: 15vh;
+        //   padding: 100px 0 0 0;
+        // }
+
+
+    h1 {
+    color: $white;
+    font-size: 2rem;
+    font-weight: 800;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+
+    @media (min-width: 768px) {
+      font-size: 2rem;
+    }
+
+    @media (min-width: 992px) {
+      font-size: 2rem;
+      line-height: 60px;
+    }
+  }
+
+  h2 {
+    font-size: 1rem;
+    font-weight: 100;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-size: 0.9rem;
+
+    @media (min-width: 768px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  // Btn
+  .btn {
+    width: 100%;
+
+    @media (min-width: 768px) {
+      width: 300px;
+    }
+  }
+
+  .back-to-home {
+    color: $white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    a {
+      color: $white;
+    }
+  }
+
+}

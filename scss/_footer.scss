@@ -1,0 +1,50 @@
+#rodape {
+  color: $white;
+  background-color: $blue;
+  padding: 10px 0;
+  border-top: 4px solid $mostard;
+
+  .logo-senac {
+    width: 100px;
+  }
+
+  .middle-target {
+    background-color: $blue-light;
+    padding: 10px;
+    text-align: center;
+    font-size: .8rem;
+
+    p {
+      margin: 10px 0;
+    }
+  }
+
+  .footer-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0;
+
+
+    @media (min-width: 768px) {
+      width: 200px;
+      justify-content: start;
+    }
+
+    @media (min-width: 1200px) {
+      width: 200px;
+    }
+
+    a {
+      padding: 0 25px 0 0;
+      font-size: 1.3rem;
+      color: $white;
+
+      @media (min-width: 768px) {
+        padding: 0 30px 0 0;
+      }
+    }
+  }
+
+}

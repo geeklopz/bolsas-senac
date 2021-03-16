@@ -25,8 +25,10 @@
               <p>Preencha os campos solicitados e participe do processo seletivo.</p>
             </div>
             <div class="col-12 col-lg-4">
-              <i class="fas fa-home"></i>
-              <span><a href="index.html">Voltar para home</a></span>
+              <div class="back-to-home">
+                <i class="fas fa-home"></i>
+                <span><a href="index.html">Voltar para home</a></span>
+              </div>
             </div>
           </div>
         </div>
@@ -39,10 +41,10 @@
             <div class="col-3"></div>
             <div class="col-6">
 
-              <div class="time">
-                <i></i>
-                <p>Tempo de sessão: <span>7:00</span></p>
+              <div class="timer">
+                <p><img src="images/time-icon.png" alt="">  Tempo de sessão: <span>7:00</span></p>
               </div>
+
               <!-- step -->
               <div class="step">
                 <ul>
@@ -61,7 +63,7 @@
                 </ul>
               </div>
 
-              <div class="step-container card p-5">
+              <div class="step-container shadow-sm card bg-white rounded p-5">
                 <h3>Validacao do curso escolhido</h3>
                 <span>Voce escolheu o curso:</span>
                 <h3>Aromaterapia</h3>
@@ -71,10 +73,12 @@
                   <p><strong>Numero de vagas para bolsas:</strong> 2</p>
                   <p><strong>Idade Minima</strong> 18 anos</p>
                 </div>
-                <div class="justify-content-center d-flex h-100">
+                <div class="col-12 form-button-container">
                   <p>Voce atende aos Pre-requisitos?</p>
-                  <a href="step1-form.html" class="btn btn-primary">Sim</a>
-                  <a href="#" class="btn btn-primary">Nao</a>
+                  <div class="">
+                    <a href="step1-form.html" class="btn btn-primary btn-full mr-3">Sim</a>
+                    <a href="step1-form.html" class="btn btn-primary btn-out">Nao</a>
+                  </div>
                 </div>
               </div>
 
@@ -86,25 +90,32 @@
       </main>
 
         <!-- FOOTER -->
-  <footer id="rodape">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center mb-5">
-          <a href="/"><img src="images/logo.svg" class="img-responsive logo-senac" alt="Logo SENAC-SP"></a>
-        </div>
-        <div class="col-12 col-lg-4 pt-2">
-
-        </div>
-        <div class="col-12 col-lg-4">
-          <div class="footer-sociais w-100">
-            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-            <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-            <a href="linkedin.com/showcase/"><i class="fa fa-linkedin"></i></a>
+        <footer id="rodape">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 middle-target">
+                <p>Senac - Servico Nacional de Aprendizagem Comercial</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center mb-5">
+                <a href="/"><img src="images/senac_logo_branco.png" class="img-responsive logo-senac" alt="Logo SENAC-SP"></a>
+              </div>
+              <div class="col-12 col-lg-4 pt-2">
+
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="footer-sociais w-100">
+                  <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                  <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                  <a href="linkedin.com/showcase/"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
 
         <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
