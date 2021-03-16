@@ -29,4 +29,15 @@
     text-align: center;
     margin: 20px 0;
   }
+
+      // inputs
+      input[type="text"] {
+        border-radius: 10px;
+        border: 1px solid $grey;
+        font-style: italic;
+        font-size: 0.7rem;
+        margin-bottom: 10px;
+      }
+
+
 }

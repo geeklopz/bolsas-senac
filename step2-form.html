@@ -23,7 +23,7 @@
         <div class="container">
           <div class="row align-items-center d-flex h-100">
             <div class="col-12 col-lg-8">
-              <h1>Bolsas de Estudo</h1>
+              <h1>Bolsas de estudo</h1>
               <p>Preencha os campos solicitados e participe do processo seletivo.</p>
             </div>
             <div class="col-12 col-lg-4">
@@ -78,21 +78,96 @@
                   <h4>Situação profissional, familiar e domiciliar</h4>
                   <small>* Preenchimento obrigatorio</small>
                   <div>
-                    <p>Dados pessoais e familiares</p>
+                    <div class="row">
+                      <div class="col-3">
+                        <p>Dados pessoais e familiares</p>
+                        <input type="text" class="form-control" placeholder="Escolaridade*">
+                      </div>
+                      <div class="col-9">
+                        <p>Voce e o/a principal responsavel (arrimo) pelo domicilio onde mora?*</p>
+                        <div class="form-check-inline">
+                          <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio">Sim
+                          </label>
+                        </div>
+                        <div class="form-check-inline">
+                          <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio">Nao
+                          </label>
+                        </div>
+                      </div>
+
+                    </div>
                   </div>
                 </div>
 
                 <div class="section-form">
                   <h4>Informações sobre as pessoas do grupo familiar que moram no mesmo domicílio.</h4>
-
+                  <input type="text" class="form-control col-3" placeholder="Quantidade de moradores*">
                   <div>
                     <div>
                       <p>Morador 1</p>
-                      <a href="#" class="btn btn-primary btn-full">Adicionar outro comprovante</a>
+                      <div class="row">
+                        <div class="col-6">
+                          <input type="text" class="form-control" placeholder="Quantidade de moradores*">
+                        </div>
+                        <div class="col-3">
+                          <input type="text" class="form-control" placeholder="Parentesco*">
+                        </div>
+                        <div class="col-3">
+                          <input type="text" class="form-control" placeholder="Renda bruta total*">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-3">
+                          <input type="text" class="form-control" placeholder="Tipo de comprovante*">
+                        </div>
+                        <div class="col-3">
+                          <input type="text" class="form-control" placeholder="Renda bruta*">
+                        </div>
+                        <div class="col-3">
+                          upload
+                        </div>
+                        <div class="col-3">
+                          <p>Formatos Aceitos</p>
+                          <span>(.PDF/.JPEG/.PNG)</span>
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-center">
+                        <a href="#" class="btn btn-primary btn-full">Adicionar outro comprovante</a>
+                      </div>
                     </div>
                     <div>
                       <p>Morador 2</p>
-                      <a href="#" class="btn btn-primary btn-full">Adicionar outro comprovante</a>
+                      <div class="row">
+                        <div class="col-6">
+                          <input type="text" class="form-control" placeholder="Quantidade de moradores*">
+                        </div>
+                        <div class="col-3">
+                          <input type="text" class="form-control" placeholder="Parentesco*">
+                        </div>
+                        <div class="col-3">
+                          <input type="text" class="form-control" placeholder="Renda bruta total*">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-3">
+                          <input type="text" class="form-control" placeholder="Tipo de comprovante*">
+                        </div>
+                        <div class="col-3">
+                          <input type="text" class="form-control" placeholder="Renda bruta*">
+                        </div>
+                        <div class="col-3">
+                          upload
+                        </div>
+                        <div class="col-3">
+                          <p>Formatos Aceitos</p>
+                          <span>(.PDF/.JPEG/.PNG)</span>
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-center">
+                        <a href="#" class="btn btn-primary btn-full">Adicionar outro comprovante</a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -100,9 +175,55 @@
 
                 <div class="section-form">
                   <h4>Documentos digitalizados</h4>
+                  <div class="row">
+                    <div class="col-3">
+                      <input type="text" class="form-control" placeholder="Escolaridade*">
+                    </div>
+                    <div class="col-3">
+                      upload
+                    </div>
+                    <div class="col-6">
+                      <p>Formatos Aceitos</p>
+                      <span>(.PDF/.JPEG/.PNG)</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3">
+                      <p>CPF*</p>
+                      upload
+                    </div>
+                    <div class="col-6">
+                      <p>Formatos Aceitos</p>
+                      <span>(.PDF/.JPEG/.PNG)</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3">
+                      <p>Comprovante de escolaridade*</p>
+                      upload
+                    </div>
+                    <div class="col-6">
+                      <p>Formatos Aceitos</p>
+                      <span>(.PDF/.JPEG/.PNG)</span>
+                    </div>
+                  </div>
                 </div>
 
-                <h5>Declaracao e aceite</h5>
+                <div class="row">
+                  <div class="col-12">
+                    <h5>Declaracao e aceite</h5>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">Declaro que todas as informações fornecidas são verdadeiras e estou ciente de que não cumprimento dos requisitos e normas estabelecidas acarretará o indeferimento e/ou cancelamento da inscrição
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="" disabled>Aceite a <a href="#">Política de Privacidade</a> do Senac São Paulo
+                        </label>
+                      </div>
+                  </div>
+                </div>
 
                 <div class="col-12 form-button-container">
                   <div class="">
@@ -121,32 +242,33 @@
       </main>
 
         <!-- FOOTER -->
-  <footer id="rodape">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 middle-target">
-          <p>Senac - Servico Nacional de Aprendizagem Comercial</p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center mb-5">
-          <a href="/"><img src="images/senac_logo_branco.png" class="img-responsive logo-senac" alt="Logo SENAC-SP"></a>
-        </div>
-        <div class="col-12 col-lg-4 pt-2">
-
-        </div>
-        <div class="col-12 col-lg-4">
-          <div class="footer-sociais w-100">
-            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-            <a href="linkedin.com/showcase/"><i class="fa fa-linkedin"></i></a>
+        <footer id="rodape">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 middle-target">
+                <p>Senac - Servico Nacional de Aprendizagem Comercial</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center mb-3 mt-3">
+                <a href="/"><img src="images/senac_logo_branco.png" class="img-responsive logo-senac" alt="Logo SENAC-SP"></a>
+              </div>
+              <div class="col-12 col-lg-4 pt-2">
+
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="footer-sociais h-100">
+                  <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                  <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                  <a href="https://linkedin.com/showcase/"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://youtube.com"><i class="fab fa-youtube-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
 
         <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
