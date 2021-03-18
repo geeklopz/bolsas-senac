@@ -1,15 +1,27 @@
 .step {
+  margin: 20px 0;
 
   .step-bar {
     counter-reset: step;
+    min-width: 420px;
+
     & li {
       list-style-type: none;
       float: left;
       width: 25%;
       position:relative;
       text-align: center;
-      font-size: .8rem;
+      font-size: .7rem;
       font-weight: 400;
+
+      span {
+        color: $grey;
+        font-weight: bold;
+      }
+
+      &.active span {
+        color: $mostard;
+      }
 
       &:before {
         /* CSS for creating steper block before the li item*/

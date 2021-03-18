@@ -44,34 +44,49 @@
             <div class="col-1"></div>
             <div class="col-10">
 
+
               <div class="timer">
                 <p><img src="images/time-icon.png" alt="">  Tempo de sessão: <span>7:00</span></p>
               </div>
 
+
+
+
+
+
               <!-- step -->
-              <div class="step">
-                <ul class="step-bar col-12">
-                  <li class="active">
-                    <span>Pre-requisitos</span>
-                  </li>
-                  <li>
-                    <span>Dados Pessoais</span>
-                  </li>
-                  <li>
-                    <span>Validacao de renda</span>
-                  </li>
-                  <li>
-                    <span>Conclusao</span>
-                  </li>
-                </ul>
+              <div class="step d-flex justify-content-center">
+                <div>
+                  <ul class="step-bar">
+                    <li class="active">
+                      <span>Pre-requisitos</span>
+                    </li>
+                    <li>
+                      <span>Dados Pessoais</span>
+                    </li>
+                    <li>
+                      <span>Validacao de renda</span>
+                    </li>
+                    <li>
+                      <span>Conclusao</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
+
+
+
+
+
 
               <div class="step-container col-12 shadow-sm card bg-white rounded p-5">
                 <h3>Inscrição na Política Senac de Concessão de Bolsas</h3>
                 <div class="section-form">
                   <h4>Dados do curso</h4>
-                  <p><strong>Curso:</strong> Aromaterapia</p>
-                  <p><strong>Unidade Responsavel:</strong> SENAC SANTOS</p>
+                  <div class="mt-3">
+                    <p><strong>Curso:</strong> Aromaterapia</p>
+                    <p><strong>Unidade Responsavel:</strong> SENAC SANTOS</p>
+                  </div>
                 </div>
                 <div class="section-form">
                   <h4>Dados Pessoais</h4>
@@ -84,7 +99,7 @@
                       <div class="container">
                         <div class="row">
                           <div class="col-12">
-                            <strong>Dados pessoais e familiares</strong>
+                            <p><strong>Dados pessoais e familiares</strong></p>
                           </div>
                           <div class="col-6">
                             <input type="text" class="form-control" placeholder="Nome*">
@@ -99,7 +114,15 @@
                           <div class="col-6">
                             <div class="row">
                               <div class="col-6">
-                                <input type="text" class="form-control" placeholder="Tipo de documento*">
+                                <div class="form-group">
+                                  <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Tipo de documento*</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                  </select>
+                                </div>
                               </div>
                               <div class="col-6">
                                 <input type="text" class="form-control" placeholder="Numero do documento*">
@@ -110,36 +133,76 @@
                           <div class="col-6">
                             <div class="row">
                               <div class="col-6">
-                                <input type="text" class="form-control" placeholder="Estado Civil*">
+                                <div class="form-group">
+                                  <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Estado Civil*</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                  </select>
+                                </div>
                               </div>
                               <div class="col-6">
-                                <input type="text" class="form-control" placeholder="Raca*">
+                                <div class="form-group">
+                                  <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Raca*</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                  </select>
+                                </div>
                               </div>
                             </div>
                           </div>
 
                           <div class="col-6">
-                            <input type="text" class="form-control" placeholder="Nome da Mae*">
+                            <input type="text" class="form-control" placeholder="Nome da mae*">
                           </div>
 
                           <div class="col-6">
                             <div class="row">
-                              <div class="col-6">
-                                <label for="">Local de nascimento*</label>
+                              <div class="col-6 form-checkbox">
+                                <p>Local de nascimento*</p>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                  <label class="form-check-label" for="inlineRadio1">Brasil</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                  <label class="form-check-label" for="inlineRadio2">Outro</label>
+                                </div>
                               </div>
                               <div class="col-6">
-                                <input type="text" class="form-control" placeholder="Informe qual seu pais*">
+                                <div class="form-group">
+                                  <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Informe qual seu pais*</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                  </select>
+                                </div>
                               </div>
                             </div>
                           </div>
 
                           <div class="col-6">
-                            <input type="text" class="form-control" placeholder="Possui deficiencia?*">
+                            <div class="form-group">
+                              <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Possui deficiencia?*</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                            </div>
                           </div>
 
 
                             <div class="col-12">
-                              <strong>Endereco</strong>
+                              <p><strong>Endereco</strong></p>
                             </div>
 
                             <div class="col-12">
@@ -173,7 +236,15 @@
                                   <input type="text" class="form-control" placeholder="Cidade*">
                                 </div>
                                 <div class="col-2">
-                                  <input type="text" class="form-control" placeholder="UF*">
+                                  <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>UF*</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                  </div>
                                 </div>
                                 <div class="col-6">
                                 </div>
@@ -181,16 +252,32 @@
                             </div>
 
                             <div class="col-12">
-                              <strong>Trajetoria escolar</strong>
+                              <p><strong>Trajetoria escolar</strong></p>
                             </div>
 
                             <div class="col-12">
                               <div class="row">
                                 <div class="col-3">
-                                  <input type="text" class="form-control" placeholder="Escolaridade*">
+                                  <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>Escolaridade*</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                  </div>
                                 </div>
                                 <div class="col-3">
-                                  <input type="text" class="form-control" placeholder="Cursou em escola?*">
+                                  <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>Cursou em escola?*</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                  </div>
                                 </div>
                                 <div class="col-6">
                                 </div>
@@ -200,12 +287,16 @@
                       </div>
 
                         <div class="col-12 form-button-container">
-                          <p>Algum dado está desatualizado?</p>
-                          <div class="">
-                            <a href="#" class="btn btn-primary btn-out mr-3">Atualizar dados</a>
-                            <a href="step2-form.html" class="btn btn-primary btn-full">Avancar</a>
+                          <div class="d-flex justify-content-center">
+                            <div>
+                              <p>Algum dado está desatualizado?</p>
+                              <a href="#" class="btn btn-primary btn-out mr-3">Atualizar dados</a>
+                              <a href="step2-form.html" class="btn btn-primary btn-full">Avancar</a>
+                            </div>
                           </div>
                         </div>
+
+
                       </div>
                     </form>
                   </div>
