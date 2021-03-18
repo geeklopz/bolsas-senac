@@ -12,23 +12,23 @@ main {
 .btn-full {
   background-color: $mostard;
   color: $white;
-  border: 2px solid $mostard;
+  border: 1px solid $mostard;
   padding: 5px 20px;
   &:hover {
     background-color: $mostard;
-    border: 2px solid $mostard;
+    border: 1px solid $mostard;
   }
 }
 
 .btn-out {
   background-color: $white;
   color: $mostard;
-  border: 2px solid $mostard;
+  border: 1px solid $mostard;
   padding: 5px 20px;
 
   &:hover {
     color: $mostard;
     background-color: transparent;
-    border: 2px solid $mostard;
+    border: 1px solid $mostard;
   }
 }

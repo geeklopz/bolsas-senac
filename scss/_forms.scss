@@ -1,4 +1,6 @@
 .step-container {
+  border-radius: 20px;
+  box-shadow: 0 .125rem .50rem rgba($grey, .20);
 
   h3 {
     font-size: 1.3rem;
@@ -21,7 +23,7 @@
       margin-bottom: 0;
     }
     p {
-      font-size: .8rem;
+      font-size: 1rem;
       font-weight: 400;
       padding: 0;
       margin: 0;
@@ -49,6 +51,12 @@
     }
   }
 
+  .validacao-container {
+    h3 {
+      font-size: 1.1rem;
+    }
+  }
+
   .accept-terms {
     margin: 20px 0;
     font-size: .6rem;
@@ -65,7 +73,27 @@
 
     input[type=checkbox] {
       transform: scale(1.2);
+    }
   }
+
+  .cancel-container {
+    width: 200px;
+    h3 {
+      font-size: 1rem;
+    }
+    i {
+      color: $mostard;
+      font-size: 4rem;
+      margin-bottom: .5rem;
+    }
+    p {
+      font-size: .7rem;
+      margin-bottom: .3rem;
+    }
+    .btn {
+      font-size: .7rem;
+      padding: 5px 25px;
+    }
   }
 
   .form-button-container {
@@ -83,11 +111,12 @@
 
       // inputs
       input[type="text"], select {
-        border-radius: 10px;
+        border-radius: 7px;
         border: 1px solid $grey;
         font-style: italic;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         margin-bottom: 10px;
+        height: calc(1.5em + .75rem + 6px);
       }
 
       .custom-file-input {

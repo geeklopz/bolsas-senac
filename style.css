@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body {
   background-color: #f2f2f2;
 }
@@ -11,24 +12,24 @@ main {
 .btn-full {
   background-color: #FF9300;
   color: #ffffff;
-  border: 2px solid #FF9300;
+  border: 1px solid #FF9300;
   padding: 5px 20px;
 }
 .btn-full:hover {
   background-color: #FF9300;
-  border: 2px solid #FF9300;
+  border: 1px solid #FF9300;
 }
 
 .btn-out {
   background-color: #ffffff;
   color: #FF9300;
-  border: 2px solid #FF9300;
+  border: 1px solid #FF9300;
   padding: 5px 20px;
 }
 .btn-out:hover {
   color: #FF9300;
   background-color: transparent;
-  border: 2px solid #FF9300;
+  border: 1px solid #FF9300;
 }
 
 #topo {
@@ -56,8 +57,9 @@ main {
 }
 @media (min-width: 992px) {
   #topo h1 {
-    font-size: 2rem;
-    line-height: 35px;
+    font-size: 3rem;
+    line-height: 60px;
+    font-weight: 600;
   }
 }
 #topo h2 {
@@ -89,6 +91,9 @@ main {
   display: flex;
   flex-direction: column;
 }
+#topo .back-to-home i {
+  font-size: 1.75rem;
+}
 #topo .back-to-home a {
   font-size: 0.9rem;
   color: #ffffff;
@@ -103,10 +108,11 @@ main {
   color: #FF9300;
 }
 .timer img {
-  width: 13px;
+  width: 17px;
 }
 .timer p {
   color: #17468B;
+  font-size: 1rem;
 }
 
 .step {
@@ -114,7 +120,7 @@ main {
 }
 .step .step-bar {
   counter-reset: step;
-  min-width: 420px;
+  min-width: 534px;
 }
 .step .step-bar li {
   list-style-type: none;
@@ -126,7 +132,8 @@ main {
   font-weight: 400;
 }
 .step .step-bar li span {
-  color: #707070;
+  color: #999;
+  font-size: 0.9rem;
   font-weight: bold;
 }
 .step .step-bar li.active span {
@@ -136,10 +143,13 @@ main {
   /* CSS for creating steper block before the li item*/
   content: counter(step);
   counter-increment: step;
-  height: 30px;
-  width: 30px;
-  line-height: 30px;
-  border: 2px solid #ddd;
+  height: 37px;
+  width: 37px;
+  line-height: 33px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #707070;
+  border: 3px solid #999;
   display: block;
   text-align: center;
   margin: 0 auto 10px auto;
@@ -150,12 +160,12 @@ main {
   /* CSS for creating horizontal line*/
   content: " ";
   position: absolute;
-  width: 100%;
+  width: 71%;
   height: 2px;
   background-color: #707070;
-  top: 15px;
-  left: -50%;
-  z-index: -1;
+  top: 18px;
+  left: -36%;
+  z-index: 0;
 }
 .step .step-bar li:first-child:after {
   content: none;
@@ -164,12 +174,20 @@ main {
   color: #FF9300;
 }
 .step .step-bar li.active:before {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  color: #ffffff;
+  background-color: #FF9300;
   border-color: #FF9300;
 }
 .step .step-bar li.active + :after {
   background-color: #FF9300;
 }
 
+.step-container {
+  border-radius: 20px;
+  box-shadow: 0 0.125rem 0.5rem rgba(112, 112, 112, 0.2);
+}
 .step-container h3 {
   font-size: 1.3rem;
 }
@@ -189,7 +207,7 @@ main {
   margin-bottom: 0;
 }
 .step-container .section-form p {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 400;
   padding: 0;
   margin: 0;
@@ -213,6 +231,9 @@ main {
   font-size: 0.7rem;
   font-weight: 700;
 }
+.step-container .validacao-container h3 {
+  font-size: 1.1rem;
+}
 .step-container .accept-terms {
   margin: 20px 0;
   font-size: 0.6rem;
@@ -228,6 +249,25 @@ main {
 .step-container .accept-terms input[type=checkbox] {
   transform: scale(1.2);
 }
+.step-container .cancel-container {
+  width: 200px;
+}
+.step-container .cancel-container h3 {
+  font-size: 1rem;
+}
+.step-container .cancel-container i {
+  color: #FF9300;
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+.step-container .cancel-container p {
+  font-size: 0.7rem;
+  margin-bottom: 0.3rem;
+}
+.step-container .cancel-container .btn {
+  font-size: 0.7rem;
+  padding: 5px 25px;
+}
 .step-container .form-button-container {
   margin: 20px 0;
 }
@@ -239,11 +279,12 @@ main {
   padding: 5px 45px;
 }
 .step-container input[type=text], .step-container select {
-  border-radius: 10px;
+  border-radius: 7px;
   border: 1px solid #707070;
   font-style: italic;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   margin-bottom: 10px;
+  height: calc(1.5em + .75rem + 6px);
 }
 .step-container .custom-file-input {
   opacity: 1;

@@ -44,8 +44,9 @@
     }
 
     @media (min-width: 992px) {
-      font-size: 2rem;
-      line-height: 35px;
+      font-size: 3rem;
+      line-height: 60px;
+      font-weight: 600;
     }
   }
 
@@ -79,6 +80,10 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+
+    i {
+      font-size: 1.75rem;
+    }
 
     a {
       font-size: 0.9rem;
