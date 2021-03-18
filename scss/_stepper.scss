@@ -3,7 +3,11 @@
 
   .step-bar {
     counter-reset: step;
-    min-width: 534px;
+    min-width: 0;
+
+    @media (min-width: 768px) {
+      min-width: 534px;
+    }
 
     & li {
       list-style-type: none;
@@ -13,11 +17,20 @@
       text-align: center;
       font-size: .7rem;
       font-weight: 400;
+      left: -21px;
+
+      @media (min-width: 768px) {
+        left: 0;
+      }
 
       span {
         color: #999;
-        font-size: .9rem;
+        font-size: .7rem;
         font-weight: bold;
+
+        @media (min-width: 768px) {
+          font-size: .9rem;
+        }
       }
 
       &.active span {
@@ -46,12 +59,17 @@
         /* CSS for creating horizontal line*/
         content: " ";
         position: absolute;
-        width:71%;
+        width:52%;
         height:2px;
-        background-color: $grey;
+        background-color: #999;
         top: 18px;
-        left: -36%;
+        left: -26%;
         z-index: 0;
+
+        @media (min-width: 768px) {
+          width:71%;
+          left: -36%;
+        }
       }
 
       &:first-child:before {

@@ -107,7 +107,11 @@
 
     .btn {
       font-size: .7rem;
-      padding: 5px 45px;
+      padding: 5px 38px;
+
+      @media (min-width: 768px) {
+        padding: 5px 45px;
+      }
     }
   }
 
