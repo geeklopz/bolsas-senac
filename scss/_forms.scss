@@ -23,7 +23,7 @@
       margin-bottom: 0;
     }
     p {
-      font-size: 1rem;
+      font-size: .8rem;
       font-weight: 400;
       padding: 0;
       margin: 0;
@@ -59,8 +59,8 @@
 
   .accept-terms {
     margin: 20px 0;
-    font-size: .6rem;
-    font-weight: normal;
+    font-size: 1rem;
+    font-weight: 300;
 
     h5 {
       font-size: .8rem;
@@ -69,6 +69,8 @@
 
     a {
       color: $mostard;
+      font-weight: bold;
+      text-decoration: underline;
     }
 
     input[type=checkbox] {
@@ -126,25 +128,35 @@
       .custom-file-input::-webkit-file-upload-button {
         visibility: hidden;
       }
-      .custom-file-input::before {
+      .custom-file-input:before {
         content: "Upload pendente";
         display: inline-block;
         color: $red;
         border: 1px solid $red;
         border-radius: 3px;
-        padding: 5px 8px;
+        height: calc(1.5em + .75rem + 6px) !important;
+        padding: 5px 42px;
         outline: none;
         white-space: nowrap;
         -webkit-user-select: none;
         cursor: pointer;
         font-weight: 400;
-        font-size: .6rem;
+        font-size: .8rem;
+        line-height: 25px;
       }
-      .custom-file-input:hover::before {
+      .custom-file-input:hover:before {
         border-color: $red;
       }
-      .custom-file-input:active::before {
+      .custom-file-input:active:before {
         background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+      }
+      .custom-file-input:after {
+        content: "\f093";
+        font-family: 'Font Awesome 5 Free';
+        left: 15px;
+        top: 5px;
+        color: $red;
+        position: absolute;
       }
 
 

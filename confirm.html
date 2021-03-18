@@ -19,23 +19,23 @@
 
 <body>
 
-  <header id="topo" class="d-flex">
-    <div class="container">
-      <div class="row align-items-center d-flex h-100">
-        <div class="col-12 col-lg-8">
-          <h1>Bolsas de estudo</h1>
-          <p>Preencha os campos solicitados e participe do processo seletivo.</p>
-        </div>
-        <div class="col-12 col-lg-4">
-          <div class="back-to-home">
-            <i class="fas fa-home"></i>
-            <span><a href="index.html">Voltar para home</a></span>
+    <header id="topo" class="d-flex">
+        <div class="container">
+          <div class="row align-items-center d-flex h-100">
+            <div class="col-12 col-lg-8">
+              <h1>Bolsas de estudo</h1>
+              <p>Preencha os campos solicitados e participe do processo seletivo.</p>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="back-to-home">
+                <i class="fas fa-home"></i>
+                <span><a href="index.html">Voltar para home</a></span>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    </div>
-  </header>
+        </div>
+      </header>
 
       <main>
         <div class="container">
@@ -47,6 +47,10 @@
                 <p><img src="images/time-icon.png" alt="">  Tempo de sessão: <span>7:00</span></p>
               </div>
 
+
+
+
+
               <!-- step -->
               <div class="step d-flex justify-content-center">
                 <div>
@@ -54,10 +58,10 @@
                     <li class="active">
                       <span>Pre-requisitos</span>
                     </li>
-                    <li>
+                    <li class="active">
                       <span>Dados Pessoais</span>
                     </li>
-                    <li>
+                    <li class="active">
                       <span>Validacao de renda</span>
                     </li>
                     <li>
@@ -67,16 +71,26 @@
                 </div>
               </div>
 
-              <div class="step-container card p-5 d-flex justify-content-center align-items-center">
-                <div class="cancel-container text-center">
-                  <i class="far fa-times-circle"></i>
-                  <h3>Voce saiu do processo de solicitacao de bolsas!</h3>
-                  <div class="h-100">
-                    <p>Conheca outras opcoes de cursos</p>
-                    <a href="#" class="btn btn-primary btn-full">Cursos disponiveis</a>
+
+
+
+              <div class="step-container col-12 shadow-sm card bg-white rounded p-5">
+                <div class="validacao-container">
+                  <h3>Validacao do curso escolhido</h3>
+                  <p>Voce escolheu o curso:</p>
+                  <h3>Aromaterapia</h3>
+                  <div>
+                    <p><strong>Unidade:</strong> Senac Santos</p>
+                    <p><strong>Periodo:</strong> 10/03/2020 a 07/04/2020</p>
+                    <p><strong>Numero de vagas para bolsas:</strong> 2</p>
+                    <p><strong>Idade Minima:</strong> 18 anos</p>
+                  </div>
+                  <div class="col-12 form-button-container text-center">
+                    <p>Voce confirma sua solicitacao?</p>
+                    <a href="success.html" class="btn btn-primary btn-full mr-3">Sim</a>
+                    <a href="exit-process.html" class="btn btn-primary btn-out">Nao</a>
                   </div>
                 </div>
-
               </div>
 
 
