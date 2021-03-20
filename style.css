@@ -219,6 +219,7 @@ main {
 }
 .step-container h3 {
   font-size: 1.3rem;
+  color: #333;
 }
 .step-container p {
   font-size: 0.8rem;
@@ -236,13 +237,15 @@ main {
   margin-bottom: 0;
 }
 .step-container .section-form p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 400;
   padding: 0;
   margin: 0;
+  color: #333;
 }
 .step-container .section-form small {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
+  color: #333;
 }
 .step-container .form-checkbox {
   font-size: 0.9rem;
@@ -337,12 +340,20 @@ main {
   font-size: 1rem;
 }
 .step-container input[type=text], .step-container select {
-  border-radius: 7px;
-  border: 1px solid #707070;
+  border-radius: 10px;
+  border: 1px solid #333;
+  color: #333;
   font-style: italic;
   font-size: 0.8rem;
   margin-bottom: 10px;
   height: calc(1.5em + .75rem + 6px);
+  padding: 0.3rem;
+}
+.step-container input[type=text]::placeholder, .step-container select::placeholder {
+  color: #333;
+}
+.step-container .form-control option {
+  padding: 0.3rem 0;
 }
 .step-container .custom-file-input {
   opacity: 1;

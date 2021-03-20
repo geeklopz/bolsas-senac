@@ -4,6 +4,7 @@
 
   h3 {
     font-size: 1.3rem;
+    color: #333;
   }
 
   p {
@@ -23,13 +24,15 @@
       margin-bottom: 0;
     }
     p {
-      font-size: .8rem;
+      font-size: .9rem;
       font-weight: 400;
       padding: 0;
       margin: 0;
+      color: #333;
     }
     small {
-      font-size: .6rem;
+      font-size: .7rem;
+      color: #333;
     }
   }
 
@@ -144,12 +147,23 @@
 
       // inputs
       input[type="text"], select {
-        border-radius: 7px;
-        border: 1px solid $grey;
+        border-radius: 10px;
+        border: 1px solid #333;
+        color: #333;
         font-style: italic;
         font-size: 0.8rem;
         margin-bottom: 10px;
         height: calc(1.5em + .75rem + 6px);
+        padding: 0.3rem;
+
+        &::placeholder {
+          color: #333;
+        }
+
+      }
+
+      .form-control option {
+        padding: 0.3rem 0;
       }
 
       .custom-file-input {
