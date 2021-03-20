@@ -319,23 +319,18 @@ main {
   font-weight: 300;
 }
 .step-container .cancel-container {
-  width: 200px;
+  text-align: center;
 }
 .step-container .cancel-container h3 {
-  font-size: 1rem;
-}
-.step-container .cancel-container i {
-  color: #FF9300;
-  font-size: 4rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.7rem;
 }
 .step-container .cancel-container p {
-  font-size: 0.7rem;
-  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
 }
-.step-container .cancel-container .btn {
-  font-size: 0.7rem;
-  padding: 5px 25px;
+.step-container .cancel-container i {
+  font-size: 6rem;
+  margin: 20px 0;
+  color: #FF9300;
 }
 .step-container .form-button-container {
   margin: 20px 0;
