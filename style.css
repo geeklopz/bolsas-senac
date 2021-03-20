@@ -36,6 +36,10 @@ main {
   width: 220px;
 }
 
+.modal-dialog {
+  max-width: 750px;
+}
+
 #topo {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
