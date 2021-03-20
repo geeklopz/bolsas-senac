@@ -10,10 +10,11 @@ $(document).ready(function() {
     const original = document.getElementById('row-morador');
     const copy = document.getElementById('mais-moradores');
 
-    var newSelect = original.cloneNode(true);
+    var newSelect = original.cloneNode(true, true);
 
     while(qtd < qtdValue) {
       copy.appendChild(newSelect);
+      console.log(qtd);
       qtd++;
     }
 
