@@ -373,6 +373,7 @@ main {
 }
 .step-container .custom-file-input {
   opacity: 1;
+  color: transparent;
 }
 .step-container .custom-file-input::-webkit-file-upload-button {
   visibility: hidden;
