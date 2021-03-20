@@ -75,6 +75,7 @@
       &:first-child:before {
         color: $mostard;
         border-color:$mostard;
+        border: 2px solid;
       }
 
       &:first-child span {

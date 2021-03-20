@@ -191,6 +191,7 @@ main {
 .step .step-bar li:first-child:before {
   color: #FF9300;
   border-color: #FF9300;
+  border: 2px solid;
 }
 .step .step-bar li:first-child span {
   color: #FF9300;
@@ -258,11 +259,15 @@ main {
   font-size: 0.9rem;
   font-weight: 700;
 }
+.step-container .validacao-container {
+  color: #333;
+}
 .step-container .validacao-container h3 {
   font-size: 1.7rem;
 }
 .step-container .validacao-container p {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  line-height: 20px;
 }
 .step-container .success-container {
   text-align: center;
@@ -390,7 +395,7 @@ main {
   background-color: #0052A1;
   padding: 10px;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 #rodape .middle-target p {
   margin: 10px 0;
