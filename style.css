@@ -385,6 +385,7 @@ main {
 }
 .step-container .custom-file-input:after {
   content: "";
+  font-weight: 900;
   font-family: "Font Awesome 5 Free";
   left: 15px;
   top: 5px;
