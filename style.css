@@ -37,15 +37,15 @@ main {
   font-family: "Montserrat", sans-serif;
   height: 20%;
   min-height: 20%;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/header-background.png) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/header-background.png) no-repeat;
   background-size: cover;
   background-position: 0 0;
-  padding: 50px 0;
+  padding: 73px 0;
 }
 #topo h1 {
   color: #ffffff;
   font-size: 1.7rem;
-  font-weight: 500;
+  font-weight: 600;
   word-wrap: break-word;
   margin: 0;
   padding: 0;
@@ -393,12 +393,16 @@ main {
 }
 #rodape .middle-target {
   background-color: #0052A1;
-  padding: 10px;
+  padding: 27px;
   text-align: center;
   font-size: 0.9rem;
 }
 #rodape .middle-target p {
   margin: 10px 0;
+  font-weight: 500;
+}
+#rodape .bottom-target {
+  padding: 50px 0;
 }
 #rodape .footer-sociais {
   display: flex;

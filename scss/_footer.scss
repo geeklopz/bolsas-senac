@@ -11,13 +11,18 @@
 
   .middle-target {
     background-color: $blue-light;
-    padding: 10px;
+    padding: 27px;
     text-align: center;
     font-size: .9rem;
 
     p {
       margin: 10px 0;
+      font-weight: 500;
     }
+  }
+
+  .bottom-target {
+    padding: 50px 0;
   }
 
   .footer-sociais {
