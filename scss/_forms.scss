@@ -145,6 +145,10 @@
     }
   }
 
+  .add-comprovante {
+    font-size: .9rem;
+  }
+
       // inputs
       input[type="text"], select {
         border-radius: 10px;
@@ -178,7 +182,7 @@
         display: inline-block;
         color: $red;
         border: 1px solid $red;
-        border-radius: 3px;
+        border-radius: 10px;
         height: calc(1.5em + .75rem + 6px) !important;
         padding: 5px 42px;
         outline: none;

@@ -32,6 +32,10 @@ main {
   border: 1px solid #FF9300;
 }
 
+.btn-big {
+  width: 220px;
+}
+
 #topo {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
@@ -339,6 +343,9 @@ main {
 .step-container .form-button-container .btn {
   font-size: 1rem;
 }
+.step-container .add-comprovante {
+  font-size: 0.9rem;
+}
 .step-container input[type=text], .step-container select {
   border-radius: 10px;
   border: 1px solid #333;
@@ -366,7 +373,7 @@ main {
   display: inline-block;
   color: #FF0000;
   border: 1px solid #FF0000;
-  border-radius: 3px;
+  border-radius: 10px;
   height: calc(1.5em + .75rem + 6px) !important;
   padding: 5px 42px;
   outline: none;
