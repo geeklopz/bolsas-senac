@@ -33,7 +33,7 @@ main {
 }
 
 .btn-big {
-  width: 145px;
+  min-width: 145px;
 }
 @media (min-width: 768px) {
   .btn-big {
@@ -51,13 +51,20 @@ main {
   height: 20%;
   min-height: 20%;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/header-background.png) no-repeat;
-  background-size: cover;
-  background-position: 0 0;
-  padding: 73px 0;
+  background-size: 219% 101%;
+  background-position: 92% 0%;
+  padding: 29px 0;
+}
+@media (min-width: 768px) {
+  #topo {
+    padding: 73px 0;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/header-background.png) no-repeat;
+  }
 }
 #topo h1 {
   color: #ffffff;
-  font-size: 1.7rem;
+  font-size: 2.1rem;
   font-weight: 600;
   word-wrap: break-word;
   margin: 0;
@@ -109,6 +116,11 @@ main {
 #topo .back-to-home a {
   font-size: 0.9rem;
   color: #ffffff;
+}
+#topo .back-home-mobile {
+  position: relative;
+  left: 105px;
+  margin-bottom: 30px;
 }
 
 .timer {
