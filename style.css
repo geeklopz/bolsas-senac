@@ -163,7 +163,7 @@ main {
   line-height: 33px;
   font-size: 0.9rem;
   font-weight: bold;
-  color: #707070;
+  color: #999;
   border: 3px solid #999;
   display: block;
   text-align: center;
@@ -213,7 +213,7 @@ main {
 }
 
 .step-container {
-  border-radius: 20px;
+  border-radius: 15px;
   box-shadow: 0 0.125rem 0.5rem rgba(112, 112, 112, 0.2);
 }
 .step-container h3 {
@@ -259,7 +259,7 @@ main {
   font-weight: 700;
 }
 .step-container .validacao-container h3 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 .step-container .validacao-container p {
   font-size: 0.9rem;
@@ -325,18 +325,11 @@ main {
   margin: 20px 0;
 }
 .step-container .form-button-container p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 400;
 }
 .step-container .form-button-container .btn {
   font-size: 1rem;
-  min-width: 196px;
-  min-height: 36px;
-}
-@media (min-width: 768px) {
-  .step-container .form-button-container .btn {
-    padding: 5px 45px;
-  }
 }
 .step-container input[type=text], .step-container select {
   border-radius: 7px;

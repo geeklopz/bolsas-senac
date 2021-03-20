@@ -46,7 +46,7 @@
         line-height: 33px;
         font-size: .9rem;
         font-weight: bold;
-        color: $grey;
+        color: #999;
         border: 3px solid #999;
         display:block;
         text-align: center;
@@ -59,8 +59,8 @@
         /* CSS for creating horizontal line*/
         content: " ";
         position: absolute;
-        width:52%;
-        height:2px;
+        width: 52%;
+        height: 2px;
         background-color: #999;
         top: 18px;
         left: -26%;
