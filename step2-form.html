@@ -51,11 +51,6 @@
                 <p><img src="images/time-icon.png" alt="">  Tempo de sessão: <span>7:00</span></p>
               </div>
 
-
-
-
-
-
               <div class="step d-flex justify-content-center">
                 <div>
                   <ul class="step-bar">
@@ -74,10 +69,6 @@
                   </ul>
                 </div>
               </div>
-
-
-
-
 
               <div class="step-container col-12 card bg-white p-3 p-md-5">
                 <h3>Inscrição na Política Senac de Concessão de Bolsas</h3>
@@ -130,17 +121,17 @@
                 <div class="section-form">
                   <h4>Informações sobre as pessoas do grupo familiar que moram no mesmo domicílio.</h4>
                   <div class="form-group mt-3">
-                    <select class="form-control col-12 col-lg-3" id="exampleFormControlSelect1">
+                    <select class="form-control col-12 col-lg-3" id="qtd_moradores">
                       <option>Quantidade de moradores*</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
                     </select>
                   </div>
                   <div>
-                    <div>
-                      <p><strong>Morador 1</strong></p>
+                    <div id="row-morador">
+                      <p><strong>Morador <span id="numero-morador">1</span></strong></p>
                       <div class="row">
                         <div class="col-12 col-lg-6">
                           <input type="text" class="form-control" placeholder="Nome*">
@@ -160,7 +151,7 @@
                           <input type="text" class="form-control" placeholder="Renda bruta total*">
                         </div>
                       </div>
-                      <div class="row">
+                      <div id="row-comprovante" class="row">
                         <div class="col-12 col-lg-3">
                           <div class="form-group">
                             <select class="form-control" id="exampleFormControlSelect1">
@@ -192,10 +183,11 @@
                         </div>
                       </div>
                       <div class="d-flex justify-content-center mb-3 pt-3">
-                        <a href="#" class="btn btn-primary btn-full add-comprovante"><i class="fas fa-plus-circle"></i> Adicionar outro comprovante</a>
+                        <a href="#" id="add-comprovante" class="btn btn-primary btn-full add-comprovante"><i class="fas fa-plus-circle"></i> Adicionar outro comprovante</a>
                       </div>
                     </div>
-                    <div>
+                    <div id="mais-moradores"></div>
+                    <!-- <div id="row-morador">
                       <p><strong>Morador 2</strong></p>
                       <div class="row">
                         <div class="col-12 col-lg-6">
@@ -250,7 +242,7 @@
                       <div class="d-flex justify-content-center mb-3 pt-3">
                         <a href="#" class="btn btn-primary btn-full add-comprovante"><i class="fas fa-plus-circle"></i> Adicionar outro comprovante</a>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
 
