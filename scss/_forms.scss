@@ -34,19 +34,19 @@
   }
 
   .form-checkbox {
-    font-size: .7rem;
+    font-size: .9rem;
     p {
-      font-size: .7rem;
+      font-size: .9rem;
       font-style: italic;
     }
   }
 
   .info-upload {
-    font-size: .5rem;
+    font-size: .7rem;
     font-weight: normal;
-    text-align: center;
+
     p {
-      font-size: .7rem;
+      font-size: .9rem;
       font-weight: 700;
     }
   }
@@ -54,6 +54,24 @@
   .validacao-container {
     h3 {
       font-size: 1.1rem;
+    }
+    p {
+      font-size: .9rem;
+    }
+  }
+
+  .success-container {
+    text-align: center;
+    h3 {
+      font-size: 1.7rem;
+    }
+    p {
+      font-size: 1.1rem;
+    }
+    i {
+      font-size: 6rem;
+      margin: 20px 0;
+      color: $mostard;
     }
   }
 
@@ -63,7 +81,7 @@
     font-weight: 300;
 
     h5 {
-      font-size: .8rem;
+      font-size: 1rem;
       color: $blue;
     }
 
@@ -74,7 +92,14 @@
     }
 
     input[type=checkbox] {
-      transform: scale(1.2);
+      transform: scale(1.9);
+    }
+    .form-check-label {
+      margin-left: 10px;
+      p {
+        font-size: .9rem;
+        font-weight: 300;
+      }
     }
   }
 
@@ -102,12 +127,14 @@
     margin: 20px 0;
 
     p {
-      font-size: .7rem;
+      font-size: .8rem;
+      font-weight: 400;
     }
 
     .btn {
-      font-size: .7rem;
-      padding: 5px 38px;
+      font-size: 1rem;
+      min-width: 196px;
+      min-height: 36px;
 
       @media (min-width: 768px) {
         padding: 5px 45px;

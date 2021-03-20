@@ -138,7 +138,7 @@ main {
 }
 @media (min-width: 768px) {
   .step .step-bar li {
-    left: 0;
+    left: -14px;
   }
 }
 .step .step-bar li span {
@@ -244,23 +244,39 @@ main {
   font-size: 0.6rem;
 }
 .step-container .form-checkbox {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 .step-container .form-checkbox p {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-style: italic;
 }
 .step-container .info-upload {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   font-weight: normal;
-  text-align: center;
 }
 .step-container .info-upload p {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: 700;
 }
 .step-container .validacao-container h3 {
   font-size: 1.1rem;
+}
+.step-container .validacao-container p {
+  font-size: 0.9rem;
+}
+.step-container .success-container {
+  text-align: center;
+}
+.step-container .success-container h3 {
+  font-size: 1.7rem;
+}
+.step-container .success-container p {
+  font-size: 1.1rem;
+}
+.step-container .success-container i {
+  font-size: 6rem;
+  margin: 20px 0;
+  color: #FF9300;
 }
 .step-container .accept-terms {
   margin: 20px 0;
@@ -268,7 +284,7 @@ main {
   font-weight: 300;
 }
 .step-container .accept-terms h5 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #17468B;
 }
 .step-container .accept-terms a {
@@ -277,7 +293,14 @@ main {
   text-decoration: underline;
 }
 .step-container .accept-terms input[type=checkbox] {
-  transform: scale(1.2);
+  transform: scale(1.9);
+}
+.step-container .accept-terms .form-check-label {
+  margin-left: 10px;
+}
+.step-container .accept-terms .form-check-label p {
+  font-size: 0.9rem;
+  font-weight: 300;
 }
 .step-container .cancel-container {
   width: 200px;
@@ -302,11 +325,13 @@ main {
   margin: 20px 0;
 }
 .step-container .form-button-container p {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 400;
 }
 .step-container .form-button-container .btn {
-  font-size: 0.7rem;
-  padding: 5px 38px;
+  font-size: 1rem;
+  min-width: 196px;
+  min-height: 36px;
 }
 @media (min-width: 768px) {
   .step-container .form-button-container .btn {
