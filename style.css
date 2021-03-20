@@ -33,7 +33,12 @@ main {
 }
 
 .btn-big {
-  width: 220px;
+  width: 145px;
+}
+@media (min-width: 768px) {
+  .btn-big {
+    width: 220px;
+  }
 }
 
 .modal-dialog {
@@ -340,7 +345,12 @@ main {
   font-weight: 400;
 }
 .step-container .form-button-container .btn {
-  font-size: 1rem;
+  font-size: 0.9rem;
+}
+@media (min-width: 768px) {
+  .step-container .form-button-container .btn {
+    font-size: 1rem;
+  }
 }
 .step-container .add-comprovante {
   font-size: 0.9rem;

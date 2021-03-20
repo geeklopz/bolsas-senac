@@ -34,7 +34,11 @@ main {
 }
 
 .btn-big {
-  width: 220px;
+  width: 145px;
+
+  @media (min-width: 768px) {
+    width: 220px;
+  }
 }
 
 // modal
